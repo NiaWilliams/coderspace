@@ -804,4 +804,3 @@
       }
     })();
     /*]]>*/
-    // you should add quick pay for those without a card.
