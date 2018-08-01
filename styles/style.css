@@ -79,7 +79,7 @@ body{
   width: 100%;
   color: #fff;
   background: transparent;
-  padding: 5px 0 6px 0;
+  /*padding: 5px 0 6px 0;*/
   border-bottom: 1px solid #424746;
   transition: border-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -186,7 +186,7 @@ body{
 
 .lined {
   display: flex;
-  justify-content: space-around;
-  flex: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
