@@ -4,17 +4,18 @@ body{
 }
 
 .example.example5 {
-/*   background-color: #333; */
+  background-color: #333; 
   padding: 5px;
 }
 
-.example.example5 * {
+.example.example5  {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
 .example.example5 form {
+  /*this could be filled*/
 }
 
 #example5-paymentRequest {
@@ -36,10 +37,9 @@ body{
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-/*   background-color: #424746; */
 }
 
-.example.example5 fieldset legend + * {
+.example.example5 fieldset legend {
   clear: both;
 }
 
@@ -155,7 +155,7 @@ body{
 }
 
 .example.example5 button:hover{
-  backgroung-color: #68B4AD;
+  background-color: #68B4AD;
 }
 
 .example.example5 .error svg .base {
