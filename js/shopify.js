@@ -267,7 +267,7 @@
   })();
   /*]]>*/
   
-//item 2
+//t shirt
   /*<![CDATA[*/
   (function() {
     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -536,7 +536,7 @@
   })();
   /*]]>*/
   
-// item 3
+// tote bag
 /*<![CDATA[*/
     (function() {
       var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
