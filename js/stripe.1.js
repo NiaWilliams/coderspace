@@ -6,7 +6,7 @@ function registerElements(elements, exampleName) {
   var example = document.querySelector(formClass);
 
   var form = example.querySelector('form');
-  var resetButton = example.querySelector('a.reset');
+  var resetButton = example.querySselector('a.reset');
   var error = form.querySelector('.error');
   var errorMessage = error.querySelector('.message');
 
