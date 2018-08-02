@@ -23,7 +23,7 @@ button:active {
 }
 
 /*from the stripe file*/
-.example.example5 {
+.donation-box {
   background-color: #333; 
   padding: 5px;
   max-width: 60%;
@@ -31,7 +31,7 @@ button:active {
 }
 /*size of the donation box*/
 
-.example.example5  {
+.donation-box {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -45,14 +45,14 @@ button:active {
 }
 /*size fixing*/
 
-.example.example5 fieldset {
+.donation-box fieldset {
   border: 1px solid #424746;
   padding: 15px;
   border-radius: 6px;
 }
 /*border*/
 
-.example.example5 fieldset legend {
+.donation-box fieldset legend {
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
@@ -62,40 +62,40 @@ button:active {
 }
 /*top words*/
 
-.example.example5 fieldset legend {
+.donation-box fieldset legend {
   clear: both;
 }
 /*clears fields*/
 
-.example.example5 .card-only {
+.donation-box .card-only {
   display: block;
 }
 /*displays fields accordingly*/
 
-.example.example5 .payment-request-available {
+.donation-box .payment-request-available {
   display: none;
 }
 /*clearing unwanted text*/
 
-.example.example5 .row {
+.donation-box .row {
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 10px;
 }
 /*field display fixing*/
 
-.example.example5 .field {
+.donation-box .field {
   position: relative;
   width: 100%;
 }
 /*fixes the bottom field row*/
 
-.example.example5 .field + .field {
+.donation-box .field + .field {
   margin-left: 10px;
 }
 /*moves things from the left*/
 
-.example.example5 label {
+.donation-box label {
   width: 100%;
   color: #fff;
   font-size: 13px;
@@ -106,7 +106,7 @@ button:active {
 }
 /*field titles*/
 
-.example.example5 .input {
+.donation-box .input {
   width: 100%;
   color: #fff;
   background: transparent;
@@ -116,48 +116,48 @@ button:active {
 }
 /*fixes the field rows*/
 
-.example.example5 .input::-webkit-input-placeholder {
+.donation-box .input::-webkit-input-placeholder {
   color: #676868;
 }
 /*placeholder text color*/
 
-.example.example5 .input::-moz-placeholder {
+.donation-box .input::-moz-placeholder {
   color: #676868;
 }
 /*more placeholder coloring*/
 
-.example.example5 .input:-ms-input-placeholder {
+.donation-box .input:-ms-input-placeholder {
   color: #676868;
 }
 /*even more placeholder coloring*/
 
-.example.example5 .input.StripeElement--focus,
-.example.example5 .input:focus {
+.donation-box .input.StripeElement--focus,
+.donation-box .input:focus {
   border-color: #fff;
 }
 /*field title text color*/
 
-.example.example5 .input.StripeElement--invalid {
+.donation-box .input.StripeElement--invalid {
   border-color: #ffc7ee;
 }
 /*invalid text color*/
 
-.example.example5 input:-webkit-autofill,
-.example.example5 select:-webkit-autofill {
+.donation-box input:-webkit-autofill,
+.donation-box select:-webkit-autofill {
   -webkit-text-fill-color: #fce883;
   transition: background-color 100000000s;
   -webkit-animation: 1ms void-animation-out;
 }
 /*error message color*/
 
-.example.example5 .StripeElement--webkit-autofill {
+.donation-box .StripeElement--webkit-autofill {
   background: transparent !important;
 }
 /*transperancy for something???*/
 
-.example.example5 input,
-.example.example5 button,
-.example.example5 select {
+.donation-box input,
+.donation-box button,
+.donation-box select {
   -webkit-animation: 1ms void-animation-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -168,8 +168,8 @@ button:active {
 }
 /*border control*/
 
-.example.example5 select.input,
-.example.example5 select:-webkit-autofill {
+.donation-box select.input,
+.donation-box select:-webkit-autofill {
   background-image: url('data:image/svg+xml;utf8,<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M5.35355339,4.64644661 L9.14644661,0.853553391 L9.14644661,0.853553391 C9.34170876,0.658291245 9.34170876,0.341708755 9.14644661,0.146446609 C9.05267842,0.0526784202 8.92550146,-2.43597394e-17 8.79289322,0 L1.20710678,0 L1.20710678,0 C0.930964406,5.07265313e-17 0.707106781,0.223857625 0.707106781,0.5 C0.707106781,0.632608245 0.759785201,0.759785201 0.853553391,0.853553391 L4.64644661,4.64644661 L4.64644661,4.64644661 C4.84170876,4.84170876 5.15829124,4.84170876 5.35355339,4.64644661 Z" id="shape"></path></svg>');
   background-position: 100%;
   background-size: 10px 5px;
@@ -180,7 +180,7 @@ button:active {
 }
 /*this does nothing???*/
 
-.example.example5 button {
+.donation-box button {
   display: block;
   width: 100%;
   height: 40px;
@@ -193,42 +193,42 @@ button:active {
 }
 /*pay button display*/
 
-.example.example5 button:active {
+.donation-box button:active {
   background-color: #68B4AD;
 }
 /*button click color*/
 
-.example.example5 button:hover{
+.donation-box button:hover{
   background-color: #68B4AD;
 }
 /*button hover color*/
 
-.example.example5 .error svg .base {
+.donation-box .error svg .base {
   fill: #fff;
 }
 /*requirement error color*/
 
-.example.example5 .error svg .glyph {
+.donation-box .error svg .glyph {
   fill: #9169d8;
 }
 /*credit card error color*/
 
-.example.example5 .error .message {
+.donation-box .error .message {
   color: #fff;
 }
 /*requirement error color*/
 
-.example.example5 .success .icon .border {
+.donation-box .success .icon .border {
   stroke: #bfaef6;
 }
 /*successful payment border color*/
 
-.example.example5 .success .icon .checkmark {
+.donation-box .success .icon .checkmark {
   stroke: #fff;
 }
 /*checkmark color*/
 
-.example.example5 .success .title {
+.donation-box .success .title {
   color: #fff;
 }
 /*successful title color*/
@@ -238,7 +238,7 @@ button:active {
 }
 /*success message color*/
 
-.example.example5 .success .reset path {
+.donation-box .success .reset path {
   fill: #fff;
 }
 /*reset path color*/
