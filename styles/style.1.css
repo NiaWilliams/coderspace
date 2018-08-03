@@ -5,37 +5,42 @@
   flex-wrap: wrap;
 }
 
-/*from the stripe file*/
-.example.example5 {
+/*entire thing*/
+.donate-card {
   background-color: #333; 
   padding: 5px;
   max-width: 60%;
   margin: auto;
 }
 
-.example.example5  {
+/*also the entire thing*/
+/*can we just put both of these into one decleration block since its targeting the same thing*/
+.donate-card  {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-.example.example5 form {
+.donate-card form {
   
 }
 
+/*the stripe button that I commented out in the HTML*/
 #example5-paymentRequest {
   max-width: 500px;
   width: 100%;
   margin-bottom: 10px;
 }
 
-.example.example5 fieldset {
+/*form inside the box*/
+.donate-card  fieldset {
   border: 1px solid #424746;
   padding: 15px;
   border-radius: 6px;
 }
 
-.example.example5 fieldset legend {
+
+.donate-card fieldset legend {
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
@@ -44,33 +49,34 @@
   color: #fff;
 }
 
-.example.example5 fieldset legend {
+.donate-card fieldset legend {
   clear: both;
 }
 
-.example.example5 .card-only {
+.donate-card .card-only {
   display: block;
 }
-.example.example5 .payment-request-available {
+.payment-request-available {
   display: none;
 }
 
-.example.example5 .row {
+
+.donate-card .row {
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 10px;
 }
 
-.example.example5 .field {
+.donate-card .field {
   position: relative;
   width: 100%;
 }
 
-.example.example5 .field + .field {
+.donate-card .field + .field {
   margin-left: 10px;
 }
 
-.example.example5 label {
+.donate-card label {
   width: 100%;
   color: #fff;
   font-size: 13px;
@@ -80,7 +86,7 @@
   white-space: nowrap;
 }
 
-.example.example5 .input {
+.donate-card .input {
   width: 100%;
   color: #fff;
   background: transparent;
@@ -89,40 +95,40 @@
   transition: border-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.example.example5 .input::-webkit-input-placeholder {
+.donate-card .input::-webkit-input-placeholder {
   color: #676868;
 }
 
-.example.example5 .input::-moz-placeholder {
+.donate-card .input::-moz-placeholder {
   color: #676868;
 }
 
-.example.example5 .input:-ms-input-placeholder {
+.donate-card .input:-ms-input-placeholder {
   color: #676868;
 }
 
-.example.example5 .input.StripeElement--focus,
-.example.example5 .input:focus {
+.donate-card .input.StripeElement--focus,
+.donate-card .input:focus {
   border-color: #fff;
 }
-.example.example5 .input.StripeElement--invalid {
+ .input.StripeElement--invalid {
   border-color: #ffc7ee;
 }
 
-.example.example5 input:-webkit-autofill,
-.example.example5 select:-webkit-autofill {
+.donate-card input:-webkit-autofill,
+.donate-card select:-webkit-autofill {
   -webkit-text-fill-color: #fce883;
   transition: background-color 100000000s;
   -webkit-animation: 1ms void-animation-out;
 }
 
-.example.example5 .StripeElement--webkit-autofill {
+.donate-card .StripeElement--webkit-autofill {
   background: transparent !important;
 }
 
-.example.example5 input,
-.example.example5 button,
-.example.example5 select {
+.donate-card input,
+.donate-card button,
+.donate-card select {
   -webkit-animation: 1ms void-animation-out;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -132,8 +138,8 @@
   border-radius: 0;
 }
 
-.example.example5 select.input,
-.example.example5 select:-webkit-autofill {
+.donate-card select.input,
+.donate-card select:-webkit-autofill {
   background-image: url('data:image/svg+xml;utf8,<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M5.35355339,4.64644661 L9.14644661,0.853553391 L9.14644661,0.853553391 C9.34170876,0.658291245 9.34170876,0.341708755 9.14644661,0.146446609 C9.05267842,0.0526784202 8.92550146,-2.43597394e-17 8.79289322,0 L1.20710678,0 L1.20710678,0 C0.930964406,5.07265313e-17 0.707106781,0.223857625 0.707106781,0.5 C0.707106781,0.632608245 0.759785201,0.759785201 0.853553391,0.853553391 L4.64644661,4.64644661 L4.64644661,4.64644661 C4.84170876,4.84170876 5.15829124,4.84170876 5.35355339,4.64644661 Z" id="shape"></path></svg>');
   background-position: 100%;
   background-size: 10px 5px;
@@ -143,7 +149,7 @@
   padding-right: 20px;
 }
 
-.example.example5 button {
+.donate-card button {
   display: block;
   width: 100%;
   height: 40px;
@@ -155,35 +161,35 @@
   cursor: pointer;
 }
 
-.example.example5 button:active {
+.donate-card button:active {
   background-color: #68B4AD;
 }
-.example.example5 button:hover{
+.donate-card button:hover{
   background-color: #68B4AD;
 }
 
-.example.example5 .error svg .base {
+.donate-card .error svg .base {
   fill: #fff;
 }
-.example.example5 .error svg .glyph {
+.donate-card .error svg .glyph {
   fill: #9169d8;
 }
-.example.example5 .error .message {
+.donate-card .error .message {
   color: #fff;
 }
 
-.example.example5 .success .icon .border {
+.donate-card .success .icon .border {
   stroke: #bfaef6;
 }
-.example.example5 .success .icon .checkmark {
+.donate-card .success .icon .checkmark {
   stroke: #fff;
 }
-.example.example5 .success .title {
+.donate-card .success .title {
   color: #fff;
 }
-.example.example5 .success .message {
+.donate-card .success .message {
   color: #cdd0f8;
 }
-.example.example5 .success .reset path {
+.donate-card .success .reset path {
   fill: #fff;
 }

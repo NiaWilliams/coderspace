@@ -29,6 +29,12 @@ button:active {
   max-width: 60%;
   margin: auto;
 }
+
+@media (max-width:400px){
+  .donation-box {
+    max-width: 100%;
+  }
+}
 /*size of the donation box*/
 
 .donation-box {
@@ -233,7 +239,7 @@ button:active {
 }
 /*successful title color*/
 
-.example.example5 .success .message {
+.donation-box .success .message {
   color: #cdd0f8;
 }
 /*success message color*/
