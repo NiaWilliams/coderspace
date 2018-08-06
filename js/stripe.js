@@ -237,3 +237,5 @@ function registerElements(elements, exampleName) {
 
   registerElements([card], "example5");
 })();
+
+// do we need to add anything to this for the donation amount?
