@@ -4,7 +4,7 @@
         <script src="https://js.stripe.com/v3/"></script>
         <link rel="stylesheet" href="styles/style.css" type="text/css" />
     </head>
-        <!--add in payment amount field-->
+        
     <body>
     <div class="cell donation-box">
             <form>
@@ -58,9 +58,6 @@
                     <div id="example5-card" class="input"></div>
                   </div>
                 </div>
-                <div>
-                  <!--add stuff here-->
-                </div>
                 
                 
                 <button type="submit" data-tid="elements_examples.form.pay_button">Donate!</button>
@@ -89,6 +86,28 @@
             </div>
       </div>
       
-    <script type="text/javascript" src="js/stripe.js"></script>
+    <script type="text/javascript" src="js/stripe.js">
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+  data-image="images/button.png"
+  data-key="pk_test_FTZOOu9FL0iYJXXXXXX"
+  data-name="Fund"
+  data-label= "DONATE"
+  data-description="ysysys"
+  data-amount = 
+  >
+
+    $('.donate-button').click(function(event){
+    var self = $(this);
+    var amount = 0;
+     amount = $('#custom-donation-amount').val();
+      if (amount === "") {
+        amount = 50;
+      }
+
+    amount = self.attr('data-amount');
+    amount = Math.abs(amount * 100);
+  });
+    </script>
+    
     </body>
 </html>
