@@ -237,5 +237,3 @@ function registerElements(elements, exampleName) {
 
   registerElements([card], "example5");
 })();
-
-// add stuff here for the new div
