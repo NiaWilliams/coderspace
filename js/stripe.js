@@ -237,3 +237,4 @@ function registerElements(elements, exampleName) {
 
   registerElements([card], "example5");
 })();
+
