@@ -238,3 +238,25 @@ function registerElements(elements, exampleName) {
   registerElements([card], "example5");
 })();
 
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+ $('.donate-button').click(function(event){
+    var self = $(this);
+    var amount = 0;
+     amount = $('#custom-donation-amount').val();
+      if (amount === "") {
+        amount = 50;
+      }
+
+    amount = self.attr('data-amount');
+    amount = Math.abs(amount * 100);
+  });>
