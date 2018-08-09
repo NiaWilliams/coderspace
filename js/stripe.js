@@ -259,4 +259,5 @@ function showPage() {
 
     amount = self.attr('data-amount');
     amount = Math.abs(amount * 100);
-  });>
+  });
+  /*global $*/
