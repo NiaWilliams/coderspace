@@ -1,11 +1,9 @@
 /*General*/
-
 body {
   background-color: #333;
 }
 
 /* Shopify*/
-
 .lined {
   display: flex;
   justify-content: space-around;
@@ -27,7 +25,6 @@ button:active {
 }
 
 /*Stripe*/
-
 .donation-box {
   background-color: #333;
   padding: 5px;
@@ -40,7 +37,6 @@ button:active {
     max-width: 100%;
   }
 }
-
 /*size of the donation box*/
 
 .donation-box {
@@ -48,7 +44,6 @@ button:active {
   font-size: 16px;
   font-weight: 400;
 }
-
 /*font style*/
 
 .PaymentRequest {
@@ -56,7 +51,6 @@ button:active {
   width: 100%;
   margin-bottom: 10px;
 }
-
 /*size fixing*/
 
 .donation-box fieldset {
@@ -64,7 +58,6 @@ button:active {
   padding: 15px;
   border-radius: 6px;
 }
-
 /*border*/
 
 .donation-box fieldset legend {
@@ -75,25 +68,21 @@ button:active {
   font-weight: 500;
   color: #fff;
 }
-
 /*top words*/
 
 .donation-box fieldset legend {
   clear: both;
 }
-
 /*clears fields*/
 
 .donation-box .card-only {
   display: block;
 }
-
 /*displays fields accordingly*/
 
 .donation-box .payment-request-available {
   display: none;
 }
-
 /*clearing unwanted text*/
 
 .donation-box .row {
@@ -101,20 +90,17 @@ button:active {
   display: flex;
   margin: 0 0 10px;
 }
-
 /*field display fixing*/
 
 .donation-box .field {
   position: relative;
   width: 100%;
 }
-
 /*fixes the bottom field row*/
 
 .donation-box .field+.field {
   margin-left: 10px;
 }
-
 /*moves things from the left*/
 
 .donation-box label {
@@ -126,7 +112,6 @@ button:active {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 /*field titles*/
 
 .donation-box .input {
@@ -137,25 +122,21 @@ button:active {
   border-bottom: 1px solid #424746;
   transition: border-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
 /*fixes the field rows*/
 
 .donation-box .input::-webkit-input-placeholder {
   color: #676868;
 }
-
 /*placeholder text color*/
 
 .donation-box .input::-moz-placeholder {
   color: #676868;
 }
-
 /*more placeholder coloring*/
 
 .donation-box .input:-ms-input-placeholder {
   color: #676868;
 }
-
 /*even more placeholder coloring*/
 
 .donation-box .input.StripeElement--focus,
@@ -168,7 +149,6 @@ button:active {
 .donation-box .input.StripeElement--invalid {
   border-color: #ffc7ee;
 }
-
 /*invalid text color*/
 
 .donation-box input:-webkit-autofill,
@@ -177,13 +157,11 @@ button:active {
   transition: background-color 100000000s;
   -webkit-animation: 1ms void-animation-out;
 }
-
 /*error message color*/
 
 .donation-box .StripeElement--webkit-autofill {
   background: transparent !important;
 }
-
 /*transperancy for something???*/
 
 .donation-box input,
@@ -197,7 +175,6 @@ button:active {
   border-style: none;
   border-radius: 0;
 }
-
 /*border control*/
 
 .donation-box select.input,
@@ -210,7 +187,6 @@ button:active {
   text-overflow: ellipsis;
   padding-right: 20px;
 }
-
 /*this does nothing???*/
 
 .donation-box button {
@@ -224,71 +200,59 @@ button:active {
   font-weight: 500;
   cursor: pointer;
 }
-
 /*pay button display*/
 
 .donation-box button:active {
   background-color: #68B4AD;
 }
-
 /*button click color*/
 
 .donation-box button:hover {
   background-color: #68B4AD;
 }
-
 /*button hover color*/
 
 .donation-box .error svg .base {
   fill: #fff;
 }
-
 /*requirement error color*/
 
 .donation-box .error svg .glyph {
   fill: #9169d8;
 }
-
 /*credit card error color*/
 
 .donation-box .error .message {
   color: #fff;
 }
-
 /*requirement error color*/
 
 .donation-box .success .icon .border {
   stroke: #bfaef6;
 }
-
 /*successful payment border color*/
 
 .donation-box .success .icon .checkmark {
   stroke: #fff;
 }
-
 /*checkmark color*/
 
 .donation-box .success .title {
   color: #fff;
 }
-
 /*successful title color*/
 
 .donation-box .success .message {
   color: #cdd0f8;
 }
-
 /*success message color*/
 
 .donation-box .success .reset path {
   fill: #fff;
 }
-
 /*reset path color*/
 
 /* Center the loader */
-
 #loader {
   position: absolute;
   left: 50%;
@@ -323,7 +287,6 @@ button:active {
 }
 
 /* Add animation to "page content" */
-
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
