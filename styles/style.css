@@ -143,7 +143,6 @@ button:active {
 .donation-box .input:focus {
   border-color: #fff;
 }
-
 /*field title text color*/
 
 .donation-box .input.StripeElement--invalid {
