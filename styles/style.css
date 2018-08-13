@@ -12,20 +12,9 @@ body {
   flex-wrap: wrap;
 }
 
-button {
-  border-radius: 10px;
-  padding: 3px 6px;
-  background-color: #008CBA;
-  color: #fff;
+.product2 {
+  margin-top: 35px;
 }
-
-button:active {
-  background-color: #007399;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-  color: #000000;
-}
-
 .dots {
   display: flex;
   justify-content: center;
