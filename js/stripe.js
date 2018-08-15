@@ -250,6 +250,8 @@ function showPage() {
     document.getElementById("myDiv").style.display = "block";
 }
 
+
+
 $('.donate-button').click(function(event) {
     var self = $(this);
     var amount = 0;
@@ -261,4 +263,6 @@ $('.donate-button').click(function(event) {
     amount = self.attr('data-amount');
     amount = Math.abs(amount * 100);
 });
+
+
 /*global $*/

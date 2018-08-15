@@ -15,6 +15,11 @@ body {
 .product2 {
   margin-top: 35px;
 }
+
+/*.product2 {*/
+/*  margin-top: 35px;*/
+/*}*/
+
 .dots {
   display: flex;
   justify-content: center;
